@@ -22,8 +22,20 @@ Started 2026-10-25. This records actual completion, not a future schedule.
 - [x] Verify Actions permissions and outside-contributor approval policy.
 - [x] Enable and verify available secret protection and Dependabot alerts.
 - [x] Create/update contributor labels.
-- [ ] Publish the foundation through a reviewable PR.
-- [ ] Create initial scoped contributor issues.
+- [x] Publish the foundation through a reviewable PR.
+- [x] Create initial scoped contributor issues.
+
+Foundation: [PR #1](https://github.com/BasilZafar11/Build_From_Skeleton/pull/1).
+The foundation files are on `setup/week-1-foundation` until the PR is merged;
+issue forms and the new README are not active on `main` yet.
+
+Initial work is grouped in the
+[Week 2 milestone](https://github.com/BasilZafar11/Build_From_Skeleton/milestone/1):
+
+- [#2: Specification example walkthrough](https://github.com/BasilZafar11/Build_From_Skeleton/issues/2)
+- [#3: Package and exercise stubs](https://github.com/BasilZafar11/Build_From_Skeleton/issues/3)
+- [#4: Milestone learner tests](https://github.com/BasilZafar11/Build_From_Skeleton/issues/4)
+- [#5: Isolated reference verification](https://github.com/BasilZafar11/Build_From_Skeleton/issues/5)
 
 ## User-owned follow-up
 
