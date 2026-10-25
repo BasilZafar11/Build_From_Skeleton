@@ -2,3 +2,24 @@ venv/
 .venv/
 __pycache__/
 *.py[cod]
+
+# Local credentials and learner data
+.env
+.env.*
+!.env.example
+expenses.json
+
+# Python tooling and distributions
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

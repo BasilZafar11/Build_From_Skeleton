@@ -1,0 +1,40 @@
+name: New skeleton proposal
+description: Propose a project and agree on its teaching scope before implementing it.
+title: "[Skeleton]: "
+labels: ["new skeleton", "needs discussion"]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: What will the learner build?
+      description: Describe the useful result, intended audience, and language.
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Prerequisites and learning objectives
+      description: Separate what learners should already know from what they will practice.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Milestones and scope
+      description: List the core milestones, unfinished responsibilities, and features excluded from the initial version.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and maintenance
+      description: Explain dependencies, local setup, and whether you can help maintain the project. Core work must run without paid services or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Tests, reference implementation, and sources
+      description: How will you verify each milestone? Identify any third-party material and its license.
+    validations:
+      required: true

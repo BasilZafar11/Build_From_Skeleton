@@ -1,0 +1,23 @@
+name: Documentation improvement
+description: Identify an unclear instruction, example, or missing explanation.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File or section
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is unclear or missing?
+      description: Explain where you got stuck and what information would help.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested clarification
+      description: Optional. You do not need to know the fix to report confusing documentation.
