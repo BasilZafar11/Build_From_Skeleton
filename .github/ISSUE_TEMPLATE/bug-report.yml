@@ -1,0 +1,40 @@
+name: Bug report
+description: Report incorrect requirements, broken setup, or tests that disagree with the specification.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project or file
+      description: Include the project path and commit if known.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and setup
+      description: Include your operating system, language version, and setup command. Remove personal paths and credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the smallest fictional input and exact command that demonstrate the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Link the documented requirement when possible. NotImplementedError is expected for unfinished exercises.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include relevant output after removing secrets and personal information.
+    validations:
+      required: true
